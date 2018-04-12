@@ -1,12 +1,20 @@
+body{
+    background-image: url("../back.jpeg");
+    background-size: cover;
+}
 #play{
     margin-top: 90px;
 }
 .pig-dice{
-    display: none;
+    display: none;a
 }
 p{
     color: green;
 }
 .start{
     display: none;
+}
+.roll1Result,.current1,.current2,.roll2Result,.total1,.total2{
+    color: darkblue;
+    font-size: 20px;
 }
