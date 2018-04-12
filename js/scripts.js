@@ -38,6 +38,7 @@ Player.prototype.hold = function () {
 Player.prototype.winner = function () {
     if(this.totalScore >= 100) {
         alert("You are the winner!")
+
     }
 }
 
